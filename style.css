@@ -27,6 +27,8 @@ Grey color: #343a40
 body {
   font-family: 'Inter', sans-serif;
   color: #343a40;
+  border-bottom: 8px solid #087f5b ;
+
 }
 
 .container {
@@ -59,8 +61,31 @@ h2 {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
+  font-weight: 500;
+
+  display: inline-block;
+
+  /*bunu üstteki metinle arasına boşluk vermek için kullandık . Inline blok olduğunda padding verildiğinde otomatik aşağı kayma yaptığı için boşluk bırakır. */
 
 }
+
+
+.btn:hover,
+.btn:active{
+  background-color: #099268;
+}
+
+.btn--big{
+  font-size:18px;
+  padding: 16px 32px;
+}
+
+.btn--small{
+  font-size: 14px;
+  padding: 8px 12px;
+}
+
+
 /* ------------------------ */
 /* COMPONENT STYLES */
 /* ------------------------ */
@@ -108,6 +133,10 @@ img {
 
 /* TESTIMONIAL */
 .testimonial-section {
+  background-color: #087f5b;
+  color: #fff;
+  padding: 24px;
+
 }
 
 .testimonial-box {
@@ -117,11 +146,15 @@ img {
 
 .testimonial-box h2 {
   margin-bottom: 24px;
+  /* 20 / 24 / 30 */
+  font-size: 24px;
 }
 
 .testimonial-text {
   font-style: italic;
   margin-bottom: 24px;
+  font-size: 18px;
+  line-height:1.7;
 }
 
 /* CHAIRS */
@@ -155,8 +188,11 @@ h3 {
 .chair-price {
   display: flex;
   justify-content: space-between;
+  font-size: 20px;
 }
 
 footer {
   margin-bottom: 48px;
+  color: #495057 ;
+
 }
