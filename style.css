@@ -167,6 +167,11 @@ img {
 }
 
 /* CHAIRS */
+.chair-icon{
+color: #087f5b;
+width: 24px;
+}
+
 .chair-box {
   padding: 24px;
 }
