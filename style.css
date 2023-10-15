@@ -67,6 +67,8 @@ h2 {
 
   /*bunu üstteki metinle arasına boşluk vermek için kullandık . Inline blok olduğunda padding verildiğinde otomatik aşağı kayma yaptığı için boşluk bırakır. */
 
+  border-radius: 100px;
+
 }
 
 
@@ -85,7 +87,9 @@ h2 {
   padding: 8px 12px;
 }
 
-
+img{
+  border-radius: 4px ;
+}
 /* ------------------------ */
 /* COMPONENT STYLES */
 /* ------------------------ */
@@ -108,6 +112,8 @@ h1 {
   line-height: 1.1;
   letter-spacing: -1px;
   /* 44 / 52 / 62 */
+  text-shadow: 0 20px 20px 10px #000000;
+
 
 
 }
@@ -145,6 +151,8 @@ img {
   background-color: #087f5b;
   color: #fff;
   padding: 24px;
+  border-radius: 4px ;
+
 
 }
 
@@ -168,8 +176,14 @@ img {
 
 /* CHAIRS */
 .chair{
+  border-radius: 4px ;
   box-shadow: 0 20px 20px 10px #00000018;
 
+}
+
+.chair img{
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
 }
 
 .chair-icon{
