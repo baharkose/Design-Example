@@ -121,7 +121,12 @@ img {
 }
 
 /* FEATURES */
-.features-icon {
+.feature-icon {
+  color: #087f5b;
+  height: 32px;
+  width: 32px;
+  margin-bottom: 16px;
+  
 }
 
 .features-title {
@@ -129,7 +134,11 @@ img {
 }
 
 .features-text {
+  font-size: 18px;
+  line-height:1.7;
 }
+
+
 
 /* TESTIMONIAL */
 .testimonial-section {
@@ -196,3 +205,5 @@ footer {
   color: #495057 ;
 
 }
+
+
